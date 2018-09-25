@@ -11,7 +11,6 @@ using namespace std;
 class BrowserHistory {
 public:
     BrowserHistory();
-    ~BrowserHistory();
 
     void visitSite(Webpage newSite);
     string back();
