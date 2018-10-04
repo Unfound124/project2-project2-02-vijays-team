@@ -4,5 +4,4 @@
 MUST EDIT WITH YOUR OWN NAME AND EMAIL IN THE SAME FORMAT
 
 Group members:
-- Ada Lovelace adalovelace@csu.fullerton.edu
-- Charles Babbage charlesbab@csu.fullerton.edu
+- Vijay Duggirala vduggirala@csu.fullerton.edu
