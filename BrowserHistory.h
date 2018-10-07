@@ -37,11 +37,11 @@ string BrowserHistory::back(){
         throw invalid_argument("Can't go back. History is empty");
     --navPos;
        
-    return navPos->getUrl();        
+    return "";//navPos->getUrl();        
 }
 string BrowserHistory::forward(){
     if(navHistory.end() == navPos)
-        throw invalid_argument("Can't go forward. Forward History is empty.");
+        //throw invalid_argument("Can't go forward. Forward History is empty.");
     navPos++;
     string _url = getUrl();
     return _url;
@@ -56,7 +56,7 @@ string BrowserHistory::getUrl(){
     {
         throw invalid_argument("History Empty");
     }
-    return navPos->getUrl();
+    return "";// navPos->getUrl();
 }
 
 list<Webpage> BrowserHistory::getSitesVisited(){
